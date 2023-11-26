@@ -1,0 +1,62 @@
+Examples:
+Python:
+python
+
+# Numeric Types
+x = 5                 # int
+y = 3.14              # float
+z = 2 + 3j            # complex
+
+# Sequence Types
+string = "Hello"      # str
+my_list = [1, 2, 3]    # list
+my_tuple = (1, 2, 3)   # tuple
+
+# Text Type
+name = "John"         # str
+
+# Set Type
+my_set = {1, 2, 3}     # set
+
+# Mapping Type
+my_dict = {'name': 'John', 'age': 25}  # dict
+
+# Boolean Type
+is_true = True         # bool
+
+# None Type
+x = None               # NoneType
+
+
+
+
+Bash (Shell Scripting):
+bash
+
+#!/bin/bash
+
+# Numeric Types
+count=5               # Integer
+pi=3.14               # Float
+
+# Sequence Types
+string="Hello"        # String
+my_array=(1 2 3)       # Array
+
+# Text Type
+name="John"           # String
+
+# No explicit Set or Mapping types in Bash
+
+# Boolean Type (Implicit, no specific bool type)
+is_true=true           # Boolean
+
+# No specific None Type in Bash, variables can be unset or empty
+
+# Examples
+echo "Count: $count"
+echo "Pi: $pi"
+echo "String: $string"
+echo "Array: ${my_array[@]}"
+echo "Name: $name"
+echo "Is True: $is_true"
